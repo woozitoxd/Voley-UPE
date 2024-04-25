@@ -1,0 +1,12 @@
+/* Agrega estilos específicos para la sección de partidos */
+#PartidosContainer {
+    margin-top: 20px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,28 @@
+/* Estilos para la noticia principal */
+.noticia-principal {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    overflow: hidden; /* Para ocultar cualquier contenido que se desborde */
+}
+
+.noticia-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+}
+
+/* Estilos para noticias */
+.noticiaReciente {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+.imagen {
+    transition: transform 0.3s; /* Agregar una transición suave para el efecto de zoom */
+  }
+  
+  .imagen:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% de su tamaño original al pasar el puntero por encima */
+  }
